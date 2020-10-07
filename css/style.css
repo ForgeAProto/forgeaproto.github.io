@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'GoodTimesRg-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('GoodTimesRg-Regular'), url('../Ressources/good-times/Good times\ rg.woff') format('woff');
+}
+
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+  
+  /* Global */
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header **/
+header{
+    background:#455b69;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#ed7117 5px solid;
+  }
+
+header .highlightTitle, header .link_home a{
+  color:#ed7117;
+  font-weight:bold;
+}
+
+header a {
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:15px;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+header li{
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float: right;
+  margin-top: 15px;
+}
+
+/* showCase */
+#showcase{
+  border-width:1px;
+  border-style:solid ;
+  border-color:black;
+  padding: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  min-height: 10px;
+}
+
+.container-center {
+  padding: 5%;
+  text-align: center;
+}
+
+#showcase h1 {
+  font-size: 300%;
+  font-family: 'GoodTimesRg-Regular';
+}
+
+
+#Prez {
+  background: #1d4851;
+}
+
+#Prez img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+
+.boxJob {
+
+  border-width:2px;
+  border-style:solid ;
+  border-color:blueviolet;
+  margin: 10px;
+}
+
+#job .boxJob h3 {
+  
+  font-size: 200%;
+  font-family: 'GoodTimesRg-Regular';
+}
+
+#job .boxJob p {
+  
+  font-size: 150%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#job .boxJob img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  height: 351px;
+  height: auto;
+}
